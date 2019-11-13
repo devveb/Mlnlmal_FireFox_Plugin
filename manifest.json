@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Bookmark it!",
+	"version": "1.1",
+	"description": "A simple bookmark button",
+	"homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/bookmark-it",
+
+	"permissions": [
+		"tabs"
+	],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Bookmark it!"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+
+}
