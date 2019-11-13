@@ -6,7 +6,8 @@
 	"homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/bookmark-it",
 
 	"permissions": [
-		"tabs"
+		"tabs",
+		"notifications"
 	],
 
 	"browser_action": {
